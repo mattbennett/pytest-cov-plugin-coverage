@@ -1,5 +1,12 @@
 pytest-cov doesn't cover the import of other plugins installed via setuptools entrypoints.
 
+# steps to reproduce
+
+1. git clone git@github.com:mattbennett/pytest-cov-plugin-coverage.git
+2. cd pytest-cov-plugin-coverage
+3. pip install -e .[dev]
+4. make test
+
 # plugin
 ```
 # plugin.py
